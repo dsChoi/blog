@@ -16,9 +16,9 @@ pygmentsCodefences       = true
     footerText           = ""
 
 # Metadata for Open Graph and Twitter
-    description          = "A new Hugo site."               # Max 160 characters show in search results
+    description          = "stones blog."               # Max 160 characters show in search results
     images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
-    title                = "Call me Sam"
+    title                = "my name is stones"
     # rss                = ""
 
 [[params.videoBackground.sources]]

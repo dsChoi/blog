@@ -1,15 +1,10 @@
 ---
-title: 네이버 모델서빙 공통화
+title: "[deview] 네이버 모델서빙"
 date: 2020-11-30 10:57:53
 categories: blog
 showDate: true
-tags: 
-- deview
-- ML
-
+tags: [deview, ML]
 ---
-
-
 
 #### 목차
 

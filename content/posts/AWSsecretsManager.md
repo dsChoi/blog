@@ -1,5 +1,5 @@
 ---
-title: AWSsecretsManager
+title: AWS secretsManager spring boot 적용기
 date: 2020-11-23 10:57:53
 categories: blog
 showDate: true
