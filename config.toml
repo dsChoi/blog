@@ -6,7 +6,7 @@ title                    = "my name is Stones"
 theme                    = "sam"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
-# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+googleAnalytics        = "G-XR2Y95VWMZ"                               # Tracking code, eg. "UA-111111111-1"
 
 [params]
     dateform             = "Mon Jan 02, 2006"
