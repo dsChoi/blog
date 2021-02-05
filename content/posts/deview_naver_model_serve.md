@@ -3,6 +3,7 @@ title: "[deview] 네이버 모델서빙"
 date: 2020-11-30 10:57:53
 categories: blog
 showDate: true
+Draft : true
 tags: [deview, ML]
 ---
 
@@ -22,6 +23,8 @@ tags: [deview, ML]
   - 모델이 늘어날수록 엔지니어가 작업할 내용이 많아짐
 
 ![image-20201125135008717](/Users/stones/git/dsChoi.github.io/source/image-20201125135008717.png)
+
+![image-20201125135008717](image-20201125135008717.png)
 
 * gateway - 인증, 로깅, 웨이트
 
@@ -50,6 +53,8 @@ tags: [deview, ML]
 ### 일반적인 인퍼런스 요청 처리 순서
 
 ![image-20201125135517498](/Users/stones/Library/Application Support/typora-user-images/image-20201125135517498.png)
+![image-20201125135517498](image-20201125135517498.png)
+
 
 
 
@@ -58,21 +63,28 @@ tags: [deview, ML]
 ### 서빙 핸들러 구현
 
 ![image-20201125135558960](/Users/stones/git/dsChoi.github.io/source/image-20201125135558960.png)
+![image-20201125135558960](image-20201125135558960.png)
+
+
 
 ### 패키지 생성 및 서빙
 
 ![image-20201125135707546](/Users/stones/Library/Application Support/typora-user-images/image-20201125135707546.png)
+![image-20201125135707546](image-20201125135707546.png)
+
 
 
 
 ### 배치 인퍼런스
 
 ![image-20201125135736125](/Users/stones/git/dsChoi.github.io/source/image-20201125135736125.png)
+![image-20201125135736125](image-20201125135736125.png)
+
 
 ### 멀티 모델 파이프라인
 
 ![image-20201125135800752](/Users/stones/git/dsChoi.github.io/source/image-20201125135800752.png)
-
+![image-20201125135800752](image-20201125135800752.png)
 
 
 ##### 3. DPLO: 공통 모델 배포
@@ -80,10 +92,14 @@ tags: [deview, ML]
 ### 모델 배포 서버 요구 및 구현
 
 ![image-20201125135916285](/Users/stones/git/dsChoi.github.io/source/image-20201125135916285.png)
+![image-20201125135916285](image-20201125135916285.png)
+
 
 ### 배포 과정
 
 ![image-20201125135938081](/Users/stones/git/dsChoi.github.io/source/image-20201125135938081.png)
+![image-20201125135916285](image-20201125135916285.png)
+
 
 
 
