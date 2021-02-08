@@ -1,9 +1,9 @@
 ---
-title: "# 1. 파이썬 답게 생각하기 (better way 6 ~ 10)"
+title: "1. 파이썬 답게 생각하기 (better way 6 ~ 10)"
 date: 2021-02-02T14:34:59+09:00
 showDate: true
 draft: false
-tags: ["blog","story"]
+tags: ["python","파이썬", '이펙티브파이썬']      
 ---
 
 # 1. 파이썬 답게 생각하기 (better way 6 ~ 10)
@@ -152,3 +152,63 @@ For Else Bolck!
 
 
 
+* 대입식(assignment expression) - 왈러스 연산자(walrus operator)
+* a := b 
+  * a 왈러스 b 라고 읽음
+  * 대입식의 값은 왈러스 연산자 왼쪽에 있는 식별자에 대입된 값
+  * 대입문이 쓰일 수 없는 위치에서 변수에 값을 대입할 수 있어서 유용
+
+```python
+fresh_fruid = {
+  '사과' : 10, 
+  '바나나', : 8, 
+  '레몬' : 5
+}
+
+def out_of_stock(count):
+  print(f'{count}개')
+ 
+
+###
+count = fresh_fruit.get('레몬', 0)
+
+if count:
+  out_of_stock(count)
+else:
+  print('재고없음')
+
+>> 5개
+  
+### 한 번만 쓰이는 변수
+if count := fresh_fruit.get('사과', 0):
+    out_of_stock(count)
+else:
+    print('재고없음')
+
+>>> 10개    
+    
+ ### 대입식 결과와 비교연산자가 있을 경우 대입식을 괄호로 감싼다.
+
+if count := fresh_fruit.get('레몬', 0) >= 5:
+    out_of_stock(count)
+else:
+  print('재고없음')
+>>> True개  
+  
+ if (count := fresh_fruit.get('레몬', 0)) >= 5:
+    out_of_stock(count)
+else:
+  print('재고없음')
+>>> 5개
+  
+```
+
+![image-20210208113802867](/Users/stones/git/blog/content/posts/effectivePython_02/image-20210208113802867.png)
+
+![image-20210208113802867](./image-20210208113802867.png)
+
+> **기억해야 할 내용**
+>
+> * 대입식에서는 왈러스 연산자(:=) 를 사용해 하나의 식 안에서 변수 이름에 값을 대입하면서 이 값을 평가할 수 있고, 중복을 줄일수 있다.
+> * 대입식이 더 큰 식의 일부분으로 쓰일 때는 괄호로 둘러싸야 한다.
+> * 파이썬에서는 switch/case 문이나 do/while 루프를 쓸 수 없지만, 대입식을 사용하면 이런 기능을 더 깔끔하게 흉내낼 수 있다.

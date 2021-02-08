@@ -6,7 +6,8 @@ title                    = "my name is Stones"
 theme                    = "sam"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
-googleAnalytics        = "G-XR2Y95VWMZ"                               # Tracking code, eg. "UA-111111111-1"
+googleAnalytics        = "UA-184252439-1"                               # Tracking code, eg. "UA-111111111-1"
+disqusShortname = "dschoi-github-io"
 
 [params]
     dateform             = "Mon Jan 02, 2006"

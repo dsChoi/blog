@@ -1,9 +1,9 @@
 ---
-title: "# 1. 파이썬 답게 생각하기 (better way 1 ~ 5)"
+title: "1. 파이썬 답게 생각하기 (better way 1 ~ 5)"
 date: 2021-01-29T14:34:59+09:00
 showDate: true
 draft: false
-tags: ["blog","story"]
+tags: ["python","파이썬", '이펙티브파이썬']
 ---
 
 # 1. 파이썬 답게 생각하기 (better way 1 ~ 5)
