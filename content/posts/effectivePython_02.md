@@ -203,7 +203,7 @@ else:
   
 ```
 
-![image-20210208113802867](/Users/stones/git/blog/content/posts/effectivePython_02/image-20210208113802867.png)
+![image-20210208113802867](./effectivePython_02/image-20210208113802867.png)
 
 ![image-20210208113802867](./image-20210208113802867.png)
 
