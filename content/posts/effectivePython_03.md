@@ -1,7 +1,6 @@
 ---
 title: "2 리스트와 딕셔너리 (better way 11 ~ 14)"
 date: 2021-02-08T17:21:08+09:00
-draft: true
 draft: false
 tags: ["python","파이썬", '이펙티브파이썬']  
 ---
