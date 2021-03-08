@@ -1,12 +1,12 @@
 ---
-title: "파이썬코딩의 기술"
-date: 2021-02-08T17:21:08+09:00
-draft: true
+title: "파이썬 코딩의 기술 better way 15 ~ 18"
+date: 2021-03-01T17:22:08+09:00
 draft: false
+showDate: true
 tags: ["python","파이썬", '이펙티브파이썬']  
 ---
 
-# 2 리스트와 딕셔너리 (better way 15 ~ 18)
+# 2. 리스트와 딕셔너리 (better way 15 ~ 18)
 
 ## Better way 15. 딕셔너리 삽입 순서에 의존할 떄는 조심하라
 

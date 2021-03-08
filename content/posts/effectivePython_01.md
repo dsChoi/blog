@@ -1,5 +1,5 @@
 ---
-title: "1. 파이썬 답게 생각하기 (better way 1 ~ 5)"
+title: "파이썬 코딩의 기술 better way 1 ~ 5"
 date: 2021-01-29T14:34:59+09:00
 showDate: true
 draft: false

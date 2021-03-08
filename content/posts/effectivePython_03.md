@@ -1,7 +1,8 @@
 ---
-title: "2 리스트와 딕셔너리 (better way 11 ~ 14)"
+title: "파이썬 코딩의 기술 better way 11 ~ 14"
 date: 2021-02-08T17:21:08+09:00
 draft: false
+showDate: true
 tags: ["python","파이썬", '이펙티브파이썬']  
 ---
 
