@@ -1,13 +1,12 @@
 ---
-
-title: "파이썬코딩의 기술 better way 19 ~ 22"
-date: 2021-03-21T22:34:08+09:00
+title: "파이썬 코딩의 기술 better way 15 ~ 18"
+date: 2021-03-21T17:22:08+09:00
 draft: false
-tags: ["python","파이썬", '이펙티브파이썬']  
+showDate: true
+tags: ['python',파이썬', '이펙티브파이썬']
 ---
 
 # 3 함수 (better way 19 ~ 22)
-
 
 
 ## Better way 19. 함수가 여러 값을 반환하는 경우 절대로 네 값 이상을 언패킹하지 말라
