@@ -1,10 +1,11 @@
 ---
-title: "파이썬 코딩의 기술 better way 15 ~ 18"
-date: 2021-03-21T17:22:08+09:00
+title: "파이썬 코딩의 기술 better way 19 ~ 22"
+date: 2021-03-09T22:22:08+09:00
 draft: false
 showDate: true
-tags: ['python',파이썬', '이펙티브파이썬']
+tags: ["python","파이썬", '이펙티브파이썬']  
 ---
+
 
 # 3 함수 (better way 19 ~ 22)
 
